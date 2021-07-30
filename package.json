@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "drunk-in-the-garage",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Drunk In The Garage official website",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,9 +14,34 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "babel-plugin-styled-components": "^1.13.2",
+    "dotenv": "^8.6.0",
+    "framer-motion": "^4.1.17",
     "gatsby": "^3.9.1",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^1.9.0",
+    "gatsby-plugin-material-ui": "^3.0.1",
+    "gatsby-plugin-nprogress": "^3.10.0",
+    "gatsby-plugin-page-progress": "^2.2.1",
+    "gatsby-plugin-react-helmet": "^4.10.0",
+    "gatsby-plugin-sharp": "^3.9.0",
+    "gatsby-plugin-styled-components": "^4.9.0",
+    "gatsby-source-filesystem": "^3.9.0",
+    "gatsby-source-sanity": "^7.0.7",
+    "gatsby-transformer-remark": "^4.7.0",
+    "gatsby-transformer-sharp": "^3.9.0",
+    "gbimage-bridge": "^0.1.4",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-masonry-css": "^1.0.16",
+    "react-portable-text": "^0.3.0",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "prettier": "2.3.2"
